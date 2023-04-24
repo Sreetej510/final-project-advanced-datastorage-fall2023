@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@material-ui/icons": "^4.11.3",
     "bignumber.js": "^9.0.0",
     "concurrently": "^8.0.1",
     "core-util-is": "^1.0.3",
@@ -18,7 +19,9 @@
     "util-deprecate": "^1.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd server && npm test",
+    "project": "cd project && npm start",
+    "both": "concurrently \"npm run server\" \"npm run project\""
   },
   "author": "",
   "license": "ISC"
