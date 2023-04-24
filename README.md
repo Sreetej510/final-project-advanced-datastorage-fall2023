@@ -24,16 +24,16 @@ Start the development server by running
 ## API Routes
 Here are the available API routes:
 
-/api/customers: Returns all customers
-/api/orders: Returns all orders
-/api/order/fullname/:name: Returns all orders for the specified customer by fullname
-/api/order/lastname/:lastname: Returns all orders for the specified customer by lastname
-/api/order/firstname/:firstname: Returns all orders for the specified customer by firstname
-/api/order/mobile/:mobile: Returns all orders for the specified customer using mobile number
-/api/order/email/:email: Returns all orders for the specified customer using email
-/api/order/product_id/:product_id: Returns all orders and customer data by product ID
-/api/execute: a route for executing CRUD commands against the database
-/api/products: Returns all products
+/api/customers: Returns all customers\
+/api/orders: Returns all orders\
+/api/order/fullname/:name: Returns all orders for the specified customer by fullname\
+/api/order/lastname/:lastname: Returns all orders for the specified customer by lastname\
+/api/order/firstname/:firstname: Returns all orders for the specified customer by firstname\
+/api/order/mobile/:mobile: Returns all orders for the specified customer using mobile number\
+/api/order/email/:email: Returns all orders for the specified customer using email\
+/api/order/product_id/:product_id: Returns all orders and customer data by product ID\
+/api/execute: a route for executing CRUD commands against the database\
+/api/products: Returns all products\
 /api/categories: Returns all categories
 
 ## Usage
