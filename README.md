@@ -13,9 +13,10 @@ Material-UI
 ## Installation
 Clone the repository to your local machine.
 Navigate to the project directory in your terminal.
-Install the necessary dependencies by running ```sh
+Install the necessary dependencies by running, in the root directory
+```sh
   npm i -g concurrently && npm run install
-  ``` in the root directory
+  ```
 Start the development server by running
 ```sh
   npm run both
