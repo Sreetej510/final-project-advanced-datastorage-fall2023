@@ -3,19 +3,27 @@
 ## Overview
 This project is a simple full-stack web application that demonstrates how to connect a MySQL database to a React front-end and an Express back-end using Axios. It allows users to perform CRUD operations on a mock business database, including retrieving data based on various criteria such as customer name, order number, and product ID.
 
+## Project Info
+#### Member
+Sreetej Reddy Kasara (U849M584)\
+Github id: [Sreetej510](https://github.com/Sreetej510)\
+Video Demo: [link](https://youtu.be/UPRHq11xYGQ)\
+
 ## Technologies Used
-React.js
-Express.js
-MySQL
-Axios
+Node\
+React.js\
+Express.js\
+MySQL\
+Axios\
 Material-UI
 
 ## Installation
 Clone the repository to your local machine.
 Navigate to the project directory in your terminal.
-Install the necessary dependencies by running ```sh
-  npm i -g concurrently && npm run install
-  ``` in the root directory
+Install the necessary dependencies by running, in the root directory
+```sh
+  npm i -g concurrently; npm run install
+  ```
 Start the development server by running
 ```sh
   npm run both
