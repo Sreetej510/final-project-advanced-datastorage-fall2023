@@ -9,7 +9,7 @@ This database(MySQL database) models a mock online store for Nike products. It i
 - email_address
 - phone_number
 
-FDs: None.
+FDs: customer_id -> first_name, last_name, email_address, phone_number
 
 Foreign Key Constraints: None.
 
@@ -18,6 +18,20 @@ Sample Data:
 |-------------|------------|-----------|------------------------|--------------|
 | 1           | John       | Doe       | johndoe@email.com      | 555-1234     |
 | 2           | Jane       | Smith     | janesmith@email.com    | 555-5678     |
+
+## Categories
+- category_id (primary key)
+- category_name
+
+FDs: category_id -> category_name
+
+Foreign Key Constraints: None.
+
+Sample Data:
+| category_id | category_name |
+|-------------|---------------|
+| 1           | Shoes         |
+| 2           | Clothing      |
 
 ## Products
 - product_id (primary key)
@@ -34,22 +48,9 @@ Sample Data:
 | product_id | product_name               | price  | description          | category_id |
 |------------|----------------------------|--------|----------------------|-------------|
 | 1          | Air Max 270 React          | 150.00 | Lightweight and ...  | 1           |
-| 1          | Sportswear Club Fleece     | 45.00  | Soft and com...      | 2           |
-| 1          | Sportswear Essential H..   | 25.00  | Convenient and ...   | 3           |
+| 2          | Sportswear Club Fleece     | 45.00  | Soft and com...      | 2           |
+| 3          | Sportswear Essential H..   | 25.00  | Convenient and ...   | 3           |
 
-## Categories
-- category_id (primary key)
-- category_name
-
-FDs: category_id -> category_name
-
-Foreign Key Constraints: None.
-
-Sample Data:
-| category_id | category_name |
-|-------------|---------------|
-| 1           | Shoes         |
-| 2           | Clothing       |
 
 ## Orders
 - order_id (primary key)
